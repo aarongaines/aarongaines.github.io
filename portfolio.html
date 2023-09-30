@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home - Welcome</title>
+<title>Home - Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./portfolio.html" rel="" target="">
+    <a class="nav-link active" href="./portfolio.html" rel="" target="" aria-current="page">
  <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
@@ -110,14 +110,27 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a>
+  <ul class="collapse">
+  <li><a href="#bioluminescent-algal-blooms" id="toc-bioluminescent-algal-blooms" class="nav-link" data-scroll-target="#bioluminescent-algal-blooms">Bioluminescent Algal Blooms</a></li>
+  </ul></li>
+  <li><a href="#skill-demos" id="toc-skill-demos" class="nav-link" data-scroll-target="#skill-demos">Skill Demos</a>
+  <ul class="collapse">
+  <li><a href="#downloading-and-processing-data-with-python-using-rest-api-and-arcpy" id="toc-downloading-and-processing-data-with-python-using-rest-api-and-arcpy" class="nav-link" data-scroll-target="#downloading-and-processing-data-with-python-using-rest-api-and-arcpy">Downloading and Processing Data with Python using REST API and ArcPy</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome</h1>
+<h1 class="title">Portfolio</h1>
 </div>
 
 
@@ -132,11 +145,22 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>You have reached the landing page for my personal website hosted through GitHub Pages. The goal of this website is to give you some insight into me professionally.</p>
-<p>On the About Me page you will find a short summary of who I am as well as a list of my education and experience.</p>
-<p>In the top right you will find a link to my online Portfolio and a download link of resume. My portfolio page includes some skill demos and personal projects.</p>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<section id="bioluminescent-algal-blooms" class="level3">
+<h3 class="anchored" data-anchor-id="bioluminescent-algal-blooms"><a href="https://aarongaines.github.io/ghp_bab/">Bioluminescent Algal Blooms</a></h3>
+<p>Focused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.</p>
+</section>
+</section>
+<section id="skill-demos" class="level2">
+<h2 class="anchored" data-anchor-id="skill-demos">Skill Demos</h2>
+<section id="downloading-and-processing-data-with-python-using-rest-api-and-arcpy" class="level3">
+<h3 class="anchored" data-anchor-id="downloading-and-processing-data-with-python-using-rest-api-and-arcpy"><a href="./skill_demos/arcpy/arcpy_rest_dem.html">Downloading and Processing Data with Python using REST API and ArcPy</a></h3>
+<p>Uses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
