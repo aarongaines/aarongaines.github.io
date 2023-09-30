@@ -2,15 +2,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Aaron Gaines",
+    "title": "Welcome",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "You have reached the landing page for my personal website hosted through GitHub Pages. The goal of this website is to give you some insight into me professionally.\nOn the About Me page you will find a short summary of who I am as well as a list of my education and experience.\nIn the top right you will find a link to my online Portfolio and a download link of resume. My portfolio page includes some skill demos and personal projects."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Aaron Gaines",
     "section": "",
-    "text": "About this site"
+    "text": "GIS Technician with 4 years experience | ArcGIS Products, QGIS | Python, SQL"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Aaron Gaines",
+    "section": "Education",
+    "text": "Education\nB.A. Geography - Geographic Information Science | California State University, Northridge\nA.S. Land Survey | College of the Canyons"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Aaron Gaines",
+    "section": "Experience",
+    "text": "Experience\nResearch Assistant/GIS Tech | California State University, Northridge | Sept 2021 - Sept 2023\nGIS Intern | California State University, Northridge | Oct 2019 - Sept 2021"
   }
 ]
