@@ -2,18 +2,29 @@ project:
   type: website
 
 website:
-  title: "main_user_site"
+  title: "Home"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "About Me"
+        href: about.qmd
+
+    right:
+      - text: Portfolio
+        href: https://aarongaines.github.io/portfolio/
+      - text: "Resume"
+        href: Resume_2309.pdf
+  page-footer:
+    left:
+      - text: Aaron Gaines
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/aaron-m-gaines/
+
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
-
-
-

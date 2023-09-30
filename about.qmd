@@ -1,5 +1,27 @@
 ---
-title: "About"
+title: "Aaron Gaines"
+about:
+  template: jolla
+  image: images\bioluminescent-water-in-san-d55e900-800x800.jpg
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/aaron-m-gaines/
+    - icon: email
+      text: Email
+      href: aaron.m.gaines@gmail.com
 ---
 
-About this site
+GIS Technician with 4 years experience | ArcGIS Products, QGIS | Python, SQL
+
+## Education
+
+B.A. Geography - Geographic Information Science | California State University, Northridge
+
+A.S. Land Survey | College of the Canyons
+
+## Experience
+
+Research Assistant/GIS Tech | California State University, Northridge | Sept 2021 - Sept 2023
+
+GIS Intern | California State University, Northridge | Oct 2019 - Sept 2021

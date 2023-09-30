@@ -1,7 +1,7 @@
 ---
-title: "main_user_site"
+title: "Welcome"
 ---
 
-This is a Quarto website.
+You have reached the landing page for my personal website hosted through GitHub Pages. The goal of this website is to give you some insight into me professionally. In the top right you will find a link to my online portfolio and a dropdown of contact info. 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+My portfolio page includes some skill demos and personal projects
