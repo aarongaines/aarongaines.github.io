@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -42,11 +41,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -66,48 +65,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Home</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About Me</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./portfolio.html" rel="" target="" aria-current="page">
- <span class="menu-text">Portfolio</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/aaron-m-gaines/" rel="" target=""><i class="bi bi-linkedin" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-</ul>
-            <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-          </div> <!-- /navcollapse -->
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -118,9 +80,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a>
   <ul class="collapse">
   <li><a href="#bioluminescent-algal-blooms" id="toc-bioluminescent-algal-blooms" class="nav-link" data-scroll-target="#bioluminescent-algal-blooms">Bioluminescent Algal Blooms</a></li>
-  </ul></li>
-  <li><a href="#skill-demos" id="toc-skill-demos" class="nav-link" data-scroll-target="#skill-demos">Skill Demos</a>
-  <ul class="collapse">
   <li><a href="#downloading-and-processing-data-with-python-using-rest-api-and-arcpy" id="toc-downloading-and-processing-data-with-python-using-rest-api-and-arcpy" class="nav-link" data-scroll-target="#downloading-and-processing-data-with-python-using-rest-api-and-arcpy">Downloading and Processing Data with Python using REST API and ArcPy</a></li>
   </ul></li>
   </ul>
@@ -152,9 +111,6 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="bioluminescent-algal-blooms"><a href="https://aarongaines.github.io/ghp_bab/">Bioluminescent Algal Blooms</a></h3>
 <p>Focused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.</p>
 </section>
-</section>
-<section id="skill-demos" class="level2">
-<h2 class="anchored" data-anchor-id="skill-demos">Skill Demos</h2>
 <section id="downloading-and-processing-data-with-python-using-rest-api-and-arcpy" class="level3">
 <h3 class="anchored" data-anchor-id="downloading-and-processing-data-with-python-using-rest-api-and-arcpy"><a href="./skill_demos/arcpy/arcpy_rest_dem.html">Downloading and Processing Data with Python using REST API and ArcPy</a></h3>
 <p>Uses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area.</p>

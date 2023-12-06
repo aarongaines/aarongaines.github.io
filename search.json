@@ -58,9 +58,30 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Aaron Gaines",
     "section": "",
-    "text": "You have reached the landing page for my personal website hosted through GitHub Pages. The goal of this website is to give you some insight into me professionally.\nOn the About Me page you will find a short summary of who I am as well as a list of my education and experience.\nIn the top right you will find a link to my online Portfolio and a download link of resume. My portfolio page includes some skill demos and personal projects."
+    "text": "GIS Technician with 4 years experience | ArcGIS Products, QGIS | Python, SQL"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Aaron Gaines",
+    "section": "Education",
+    "text": "Education\nB.A. Geography - Geographic Information Science | California State University, Northridge\nGraduate Certificate Data Science | UCLA Extension\nA.S. Land Survey | College of the Canyons"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Aaron Gaines",
+    "section": "Experience",
+    "text": "Experience\nGIS Research Assistant | California State University, Northridge | Aug 2021 - Sept 2023\nGIS Intern | California State University, Northridge | Oct 2019 - Sept 2021"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Aaron Gaines",
+    "section": "Projects",
+    "text": "Projects\n\nBioluminescent Algal Blooms\nFocused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\nDownloading and Processing Data with Python using REST API and ArcPy\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
   },
   {
     "objectID": "about.html",
@@ -88,20 +109,13 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Focused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms."
+    "text": "Focused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\n\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
   },
   {
     "objectID": "portfolio.html#projects",
     "href": "portfolio.html#projects",
     "title": "Portfolio",
     "section": "",
-    "text": "Focused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms."
-  },
-  {
-    "objectID": "portfolio.html#skill-demos",
-    "href": "portfolio.html#skill-demos",
-    "title": "Portfolio",
-    "section": "Skill Demos",
-    "text": "Skill Demos\n\nDownloading and Processing Data with Python using REST API and ArcPy\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
+    "text": "Focused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\n\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
   }
 ]
