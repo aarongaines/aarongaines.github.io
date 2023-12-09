@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "zonal_stats.html",
+    "href": "zonal_stats.html",
+    "title": "Zonal Statistics of Service Areas and Point Interpolation",
+    "section": "",
+    "text": "Below is a PNG of the poster that was created for this project. Due to the nature of the static site generator I am using, the format displayed is not ideal. However, you can open the image in a new tab to view it in full resolution."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Focused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\n\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
+  },
+  {
+    "objectID": "portfolio.html#projects",
+    "href": "portfolio.html#projects",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Focused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\n\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Aaron Gaines",
+    "section": "",
+    "text": "GIS Technician with 4 years experience | ArcGIS Products, QGIS | Python, SQL"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Aaron Gaines",
+    "section": "Education",
+    "text": "Education\nB.A. Geography - Geographic Information Science | California State University, Northridge\nA.S. Land Survey | College of the Canyons"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Aaron Gaines",
+    "section": "Experience",
+    "text": "Experience\nResearch Assistant/GIS Tech | California State University, Northridge | Sept 2021 - Sept 2023\nGIS Intern | California State University, Northridge | Oct 2019 - Sept 2021"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Aaron Gaines",
+    "section": "",
+    "text": "GIS Technician with 4 years experience | ArcGIS Products, QGIS | Python, SQL"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Aaron Gaines",
+    "section": "Education",
+    "text": "Education\nB.A. Geography - Geographic Information Science | California State University, Northridge\nGraduate Certificate Data Science | UCLA Extension\nA.S. Land Survey | College of the Canyons"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Aaron Gaines",
+    "section": "Experience",
+    "text": "Experience\nGIS Research Assistant | California State University, Northridge | Aug 2021 - Sept 2023\nGIS Intern | California State University, Northridge | Oct 2019 - Sept 2021"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Aaron Gaines",
+    "section": "Projects",
+    "text": "Projects\n\nBioluminescent Algal Blooms\nFocused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\nZonal Statistics of Service Areas and Point Interpolation\nThis project was for a GIS course at CSUN. The project focused on using zonal statistics and point interpolation to analyze the number of active COVID-19 cases in Los Angeles County and respective service areas of hospitals. The deliverable for the project was a poster format created using ArcGIS Pro.\n\n\nDownloading and Processing Data with Python using REST API and ArcPy\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
+  },
+  {
     "objectID": "skill_demos/arcpy/arcpy_rest_dem.html",
     "href": "skill_demos/arcpy/arcpy_rest_dem.html",
     "title": "Using Arcpy to Automate GIS Tasks",
@@ -54,68 +124,5 @@
     "title": "Using Arcpy to Automate GIS Tasks",
     "section": "Conclusion",
     "text": "Conclusion\nIn this notebook, we used Python and ArcPy to download DEMs from the USGS website using their REST API. We then mosaiked the DEMs into a single raster, and clipped them to the HUC 8 boundary. The purpose of this was to create a DEM for a specific area that can be used in hydrologic modeling. In practice it was used to more quickly setup a GIS environment for digitizing hydrologic features.\nBelow is an example of the output of this notebook:"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Aaron Gaines",
-    "section": "",
-    "text": "GIS Technician with 4 years experience | ArcGIS Products, QGIS | Python, SQL"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Aaron Gaines",
-    "section": "Education",
-    "text": "Education\nB.A. Geography - Geographic Information Science | California State University, Northridge\nGraduate Certificate Data Science | UCLA Extension\nA.S. Land Survey | College of the Canyons"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Aaron Gaines",
-    "section": "Experience",
-    "text": "Experience\nGIS Research Assistant | California State University, Northridge | Aug 2021 - Sept 2023\nGIS Intern | California State University, Northridge | Oct 2019 - Sept 2021"
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Aaron Gaines",
-    "section": "Projects",
-    "text": "Projects\n\nBioluminescent Algal Blooms\nFocused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\nDownloading and Processing Data with Python using REST API and ArcPy\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Aaron Gaines",
-    "section": "",
-    "text": "GIS Technician with 4 years experience | ArcGIS Products, QGIS | Python, SQL"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Aaron Gaines",
-    "section": "Education",
-    "text": "Education\nB.A. Geography - Geographic Information Science | California State University, Northridge\nA.S. Land Survey | College of the Canyons"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Aaron Gaines",
-    "section": "Experience",
-    "text": "Experience\nResearch Assistant/GIS Tech | California State University, Northridge | Sept 2021 - Sept 2023\nGIS Intern | California State University, Northridge | Oct 2019 - Sept 2021"
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Focused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\n\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
-  },
-  {
-    "objectID": "portfolio.html#projects",
-    "href": "portfolio.html#projects",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Focused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\n\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
   }
 ]
