@@ -49,6 +49,13 @@
     "text": "Experience\nResearch Assistant/GIS Tech | California State University, Northridge | Sept 2021 - Sept 2023\nGIS Intern | California State University, Northridge | Oct 2019 - Sept 2021"
   },
   {
+    "objectID": "catalina_3d.html",
+    "href": "catalina_3d.html",
+    "title": "3D Render of Catalina Island",
+    "section": "",
+    "text": "Below is an animated 3D render of Catalina Island. The animation was created using ArcGIS Pro, Blender and GIMP. The data used was the USGS 1/3 arc-second DEM, and NAIP imagery of the island. The data was first processed using ArcGIS Pro, then exported to Blender for rendering. The final animation was then exported to GIMP to create the GIF for this page. Open the image in a new window to see the full resolution."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Aaron Gaines",
@@ -74,7 +81,7 @@
     "href": "index.html#sample-projects",
     "title": "Aaron Gaines",
     "section": "Sample Projects",
-    "text": "Sample Projects\n\nBioluminescent Algal Blooms\n\nSkills: Research, Remote Sensing, Python, Automation\nFocused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\n\nZonal Statistics of Service Areas and Point Interpolation\n\nSkills: ArcGIS Pro, Spatial Analysis, Large Format Map Layout\nThis project was for a GIS course at CSUN. The project focused on using zonal statistics and point interpolation to analyze the number of active COVID-19 cases in Los Angeles County and respective service areas of hospitals. The spatial analysis and map formatting was completed with ArcGIS Pro.\n\n\n\nElevation and Hydrology of Los Angeles County\n\nSkills: ArcGIS Pro, DEM, Small Format Map Layout\nThis map is an example of a simple map utilizing publicly avaliable data from the USGS. The map shows the elevation and hydrology of Los Angeles County in an 8.5x11 format. The map was created using ArcGIS Pro.\n\n\n\nDownloading and Processing Data with Python using REST API and ArcPy\n\nSkills: Python, ArcPy, REST API, DEM\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
+    "text": "Sample Projects\n\n3D Render of Catalina Island\n\nSkills: ArcGIS Pro, Blender, GIMP, DEM, Aerial Imagery\nA 3D rendered animation of Catalina Island, California. USGS 1/3 arc-second DEM was used to create the terrain mesh and NAIP imagery was used to create the texture. Created using ArcGIS Pro, Blender, and GIMP.\n\n\n\nBioluminescent Algal Blooms\n\nSkills: Research, Remote Sensing, Python, Automation\nFocused on using remote sensing data from the JAXA SGLI/GCOM satelite to identify bioluminescent algal blooms off of the coast of Southern California. The project page currently has has an interactive map that automatically updates everyday showing the most recent 5 days of likley bioluminescent algal blooms.\n\n\n\nZonal Statistics of Service Areas and Point Interpolation\n\nSkills: ArcGIS Pro, Spatial Analysis, Large Format Map Layout\nThis project was for a GIS course at CSUN. The project focused on using zonal statistics and point interpolation to analyze the number of active COVID-19 cases in Los Angeles County and respective service areas of hospitals. The spatial analysis and map formatting was completed with ArcGIS Pro.\n\n\n\nElevation and Hydrology of Los Angeles County\n\nSkills: ArcGIS Pro, DEM, Small Format Map Layout\nThis map is an example of a simple map utilizing publicly avaliable data from the USGS. The map shows the elevation and hydrology of Los Angeles County in an 8.5x11 format. The map was created using ArcGIS Pro.\n\n\n\nDownloading and Processing Data with Python using REST API and ArcPy\n\nSkills: Python, ArcPy, REST API, DEM\nUses Python to interact with the USGS REST API to download 10m digital elevation models (DEM) in user defined watershed boundary, also known as a hydrologic unit code (HUC), combine them into a single mosaic file, and then clip the mosaic to said HUC to create a single output DEM for the defined area."
   },
   {
     "objectID": "skill_demos/arcpy/arcpy_rest_dem.html",

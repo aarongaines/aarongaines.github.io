@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aarongaines.github.io/zonal_stats.html</loc>
-    <lastmod>2024-01-18T02:06:46.298Z</lastmod>
+    <lastmod>2024-01-26T21:06:07.547Z</lastmod>
   </url>
   <url>
     <loc>https://aarongaines.github.io/portfolio.html</loc>
-    <lastmod>2024-01-18T02:06:45.131Z</lastmod>
+    <lastmod>2024-01-26T21:06:06.413Z</lastmod>
   </url>
   <url>
     <loc>https://aarongaines.github.io/elev_hydro_map.html</loc>
-    <lastmod>2024-01-18T02:06:43.897Z</lastmod>
+    <lastmod>2024-01-26T21:06:05.359Z</lastmod>
   </url>
   <url>
     <loc>https://aarongaines.github.io/about.html</loc>
-    <lastmod>2024-01-18T02:06:43.380Z</lastmod>
+    <lastmod>2024-01-26T21:06:04.354Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aarongaines.github.io/catalina_3d.html</loc>
+    <lastmod>2024-01-26T21:06:04.842Z</lastmod>
   </url>
   <url>
     <loc>https://aarongaines.github.io/index.html</loc>
-    <lastmod>2024-01-18T02:06:44.478Z</lastmod>
+    <lastmod>2024-01-26T21:06:05.924Z</lastmod>
   </url>
   <url>
     <loc>https://aarongaines.github.io/skill_demos/arcpy/arcpy_rest_dem.html</loc>
-    <lastmod>2024-01-18T02:06:45.791Z</lastmod>
+    <lastmod>2024-01-26T21:06:07.040Z</lastmod>
   </url>
 </urlset>
